@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - print size of char, int, long int, long long int and float
+ * Return: 0
+ */
 
 int main(void)
 {
