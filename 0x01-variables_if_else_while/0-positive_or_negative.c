@@ -9,18 +9,18 @@
 
 int main(void)
 {
-	int a;
+	int n;
 
 	srand(time(0));
-	a = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	printf("%d", n);
 
-	if (a > 0)
+	if (n > 0)
 	{
 		puts(" is positive");
 	}
-	else if (a == 0)
+	else if (n == 0)
 	{
 		puts(" is zero");
 	}
