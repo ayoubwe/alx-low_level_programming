@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _strcpy - copy the string pointed to by src, including the ternimating null byte (\0), to the buffer pointed to by dest.
  * @dest: char to check
