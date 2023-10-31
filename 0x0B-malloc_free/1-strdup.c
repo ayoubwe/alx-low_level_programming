@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a prameter.
+ * _strdup - Returns a pointer to an allocated space.
  * @str: int
  * Return: strout
  */
