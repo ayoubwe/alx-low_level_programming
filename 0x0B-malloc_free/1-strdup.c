@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _strdup - returns a pointer to a newly allocated space in memory.
- * @str: string.
- *
- * Return: pointer of an array of chars
+ * _strdup - returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a prameter.
+ * @str: int
+ * Return: strout
  */
 char *_strdup(char *str)
 {
