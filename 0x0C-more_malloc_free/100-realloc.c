@@ -3,11 +3,11 @@
 /**
  * _realloc - reallocates a memory block.
  * @ptr: void
- * @old_size: int
- * @new_size: int
+ * @old_size: un.int
+ * @new_size: un.int
  * Return: ptr
  */
-void *_realloc(void *ptr, int old_size, int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	if (new_size == 0 && ptr != NULL)
 	{
