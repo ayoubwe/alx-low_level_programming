@@ -28,7 +28,7 @@ void check98(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
 	{
-		dprintf(STDERR_FILENO, "Error:You can't read from file %s\n", file);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file);
 		if (fd_from != -1)
 			close(fd_from);
 		if (fd_to != -1)
@@ -49,7 +49,7 @@ void check99(ssize_t check, char *file, int fd_from, int fd_to)
 {
 	if (check == -1)
 	{
-		dprintf(STDERR_FILENO, "Error:You can't write to %s\n", file);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 		if (fd_from != -1)
 			close(fd_from);
 		if (fd_to != -1)
@@ -68,7 +68,7 @@ void check100(int check, int z)
 {
 	if (check == -1)
 	{
-		dprintf(STDERR_FILENO, "Error:You can't close fd %d\n", z);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", z);
 		exit(100);
 	}
 }
