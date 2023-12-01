@@ -133,7 +133,10 @@ void print_version(unsigned char *e_ident)
 		break;
 	}
 }
-
+/**
+ * print_osabi - prints the OS/ABI.
+ * @e_ident: uns.char
+ */
 void print_osabi(unsigned char *e_ident)
 {
 	printf("  OS/ABI:                            ");
@@ -184,7 +187,11 @@ void print_abi(unsigned char *e_ident)
 	printf("  ABI Version:                       %d\n",
 	       e_ident[EI_ABIVERSION]);
 }
-
+/**
+ * print_type - print the type of an ELF.
+ * @e_type: uns.int.
+ * @e_ident: uns.char
+ */
 void print_type(unsigned int e_type, unsigned char *e_ident)
 {
 	if (e_ident[EI_DATA] == ELFDATA2MSB)
